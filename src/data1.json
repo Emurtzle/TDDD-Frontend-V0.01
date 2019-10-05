@@ -1,0 +1,43 @@
+{
+    "clients": [
+        {"id":1,"first_name":"Micky","last_name":"Mariner","email":"mmariner0@histats.com","gender":"Female","phone_number":"(360) 3387094","address":"38 Troy Lane","ssn":"522-35-5895","occupation":"Senior Sales Associate","salary":95292},
+        {"id":2,"first_name":"Ario","last_name":"Carrington","email":"acarrington1@slate.com","gender":"Male","phone_number":"(754) 3120293","address":"84 Comanche Drive","ssn":"375-34-0361","occupation":"Web Designer IV","salary":67986},
+        {"id":3,"first_name":"Marta","last_name":"Fossick","email":"mfossick2@addtoany.com","gender":"Female","phone_number":"(950) 4734792","address":"5 Delladonna Crossing","ssn":"679-94-7948","occupation":"Technical Writer","salary":50482},
+        {"id":4,"first_name":"Misha","last_name":"Vondrak","email":"mvondrak3@ezinearticles.com","gender":"Female","phone_number":"(617) 9874809","address":"007 Arizona Alley","ssn":"376-68-0522","occupation":"Financial Analyst","salary":64351},
+        {"id":5,"first_name":"Bendicty","last_name":"Antonsen","email":"bantonsen4@mediafire.com","gender":"Male","phone_number":"(121) 4395627","address":"2301 Aberg Trail","ssn":"239-77-9625","occupation":"Database Administrator III","salary":25525},
+        {"id":6,"first_name":"Ebenezer","last_name":"Shakesby","email":"eshakesby5@t.co","gender":"Male","phone_number":"(303) 1424447","address":"9852 Brentwood Hill","ssn":"312-94-3212","occupation":"Accounting Assistant I","salary":90631},
+        {"id":7,"first_name":"Jenni","last_name":"Sydenham","email":"jsydenham6@howstuffworks.com","gender":"Female","phone_number":"(732) 3033330","address":"64056 Stephen Way","ssn":"842-31-6753","occupation":"Account Coordinator","salary":73271},
+        {"id":8,"first_name":"Lockwood","last_name":"Bayley","email":"lbayley7@oaic.gov.au","gender":"Male","phone_number":"(886) 9855384","address":"3 Spenser Alley","ssn":"639-56-2342","occupation":"Staff Scientist","salary":58275},
+        {"id":9,"first_name":"Roi","last_name":"Lighton","email":"rlighton8@facebook.com","gender":"Male","phone_number":"(605) 2994956","address":"9444 Commercial Plaza","ssn":"598-64-3287","occupation":"Budget/Accounting Analyst I","salary":89497},
+        {"id":10,"first_name":"Kamila","last_name":"Pettengell","email":"kpettengell9@cisco.com","gender":"Female","phone_number":"(518) 2377621","address":"94674 Northview Alley","ssn":"700-15-8648","occupation":"Marketing Manager","salary":80712},
+        {"id":11,"first_name":"Kiley","last_name":"Gerard","email":"kgerarda@merriam-webster.com","gender":"Female","phone_number":"(793) 9320035","address":"313 Coolidge Way","ssn":"427-43-8083","occupation":"Human Resources Manager","salary":72504},
+        {"id":12,"first_name":"Gabrielle","last_name":"Galloway","email":"ggallowayb@umn.edu","gender":"Female","phone_number":"(699) 2668312","address":"39038 Northridge Junction","ssn":"544-26-4696","occupation":"Teacher","salary":84493},
+        {"id":13,"first_name":"Abramo","last_name":"Yuryshev","email":"ayuryshevc@yelp.com","gender":"Male","phone_number":"(640) 3783385","address":"2 Gateway Alley","ssn":"626-34-6928","occupation":"Clinical Specialist","salary":44285},
+        {"id":14,"first_name":"Gordan","last_name":"Hedgecock","email":"ghedgecockd@typepad.com","gender":"Male","phone_number":"(661) 4740362","address":"74 Nova Court","ssn":"570-03-5044","occupation":"Geologist I","salary":47674},
+        {"id":15,"first_name":"Adan","last_name":"Attwill","email":"aattwille@ehow.com","gender":"Female","phone_number":"(832) 5719178","address":"834 Loftsgordon Center","ssn":"584-24-5455","occupation":"Analog Circuit Design manager","salary":42424},
+        {"id":16,"first_name":"Hermina","last_name":"Weyland","email":"hweylandf@dailymotion.com","gender":"Female","phone_number":"(504) 5199601","address":"5607 Lillian Junction","ssn":"715-29-9314","occupation":"Analyst Programmer","salary":78353},
+        {"id":17,"first_name":"Nevil","last_name":"Gauntlett","email":"ngauntlettg@guardian.co.uk","gender":"Male","phone_number":"(570) 1908863","address":"8 Shasta Parkway","ssn":"133-73-3557","occupation":"Professor","salary":38504},
+        {"id":18,"first_name":"Cher","last_name":"Close","email":"ccloseh@weebly.com","gender":"Female","phone_number":"(359) 7707964","address":"59 Stone Corner Plaza","ssn":"246-48-7941","occupation":"Electrical Engineer","salary":79940},
+        {"id":19,"first_name":"Cindra","last_name":"Killough","email":"ckilloughi@printfriendly.com","gender":"Female","phone_number":"(252) 4424717","address":"27 Carey Circle","ssn":"881-80-8645","occupation":"Nurse Practicioner","salary":46817},
+        {"id":20,"first_name":"Gilbert","last_name":"Nornable","email":"gnornablej@google.ca","gender":"Male","phone_number":"(307) 3881213","address":"179 Ridgeway Drive","ssn":"328-81-3659","occupation":"Dental Hygienist","salary":24467},
+        {"id":21,"first_name":"Cindra","last_name":"Davidek","email":"cdavidekk@huffingtonpost.com","gender":"Female","phone_number":"(692) 1950686","address":"94 Fairview Alley","ssn":"475-06-7074","occupation":"Occupational Therapist","salary":89540},
+        {"id":22,"first_name":"Lemmy","last_name":"Acreman","email":"lacremanl@unblog.fr","gender":"Male","phone_number":"(157) 7234870","address":"8 Darwin Plaza","ssn":"838-66-3538","occupation":"Physical Therapy Assistant","salary":71370},
+        {"id":23,"first_name":"Daniel","last_name":"Gribbell","email":"dgribbellm@goodreads.com","gender":"Male","phone_number":"(205) 6435762","address":"849 Pierstorff Terrace","ssn":"505-44-7288","occupation":"Executive Secretary","salary":10796},
+        {"id":24,"first_name":"Jacenta","last_name":"Hardy-Piggin","email":"jhardypigginn@china.com.cn","gender":"Female","phone_number":"(627) 9013463","address":"739 Golf Course Pass","ssn":"551-77-9913","occupation":"Accounting Assistant I","salary":73481}
+    ],
+    "duedates": [
+        {"id": 1, "clientId": 1, "name": "1040", "due": "10-05-2019", "complete": false},
+        {"id": 2, "clientId": 1, "name": "1044", "due": "10-06-2019", "complete": true},
+        {"id": 3, "clientId": 2, "name": "990", "due": "10-06-2019", "complete": false},
+        {"id": 4, "clientId": 3, "name": "1040", "due": "10-07-2019", "complete": false},
+        {"id": 5, "clientId": 4, "name": "1044", "due": "10-07-2019", "complete": true},
+        {"id": 6, "clientId": 4, "name": "990", "due": "10-08-2019", "complete": false},
+        {"id": 7, "clientId": 5, "name": "1040", "due": "10-08-2019", "complete": false},
+        {"id": 8, "clientId": 6, "name": "1044", "due": "10-09-2019", "complete": true},
+        {"id": 9, "clientId": 6, "name": "1099", "due": "10-09-2019", "complete": false},
+        {"id": 10, "clientId": 7, "name": "1040", "due": "10-10-2019", "complete": false},
+        {"id": 11, "clientId": 7, "name": "990", "due": "10-10-2019", "complete": false},
+        {"id": 12, "clientId": 8, "name": "w4", "due": "10-10-2019", "complete": true}
+    ]
+
+}

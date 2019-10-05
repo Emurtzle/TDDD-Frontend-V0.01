@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
 
+import Calendar from './calendar'
+import Agenda from './agenda'
+
 import '../../App.css'
 
 import FullCalendar from '@fullcalendar/react'
 import dayGridPlugin from "@fullcalendar/daygrid";
+import timeGridPlugin from "@fullcalendar/timegrid";
+import interactionPlugin from "@fullcalendar/interaction"
 
 import moment from 'moment'
 
@@ -33,13 +38,7 @@ class HomePage extends Component {
         super(props)
 
         this.state = {
-            events: [
-                {
-                  start: new Date(),
-                  end: new Date(moment().add(1, "days")),
-                  title: "Some title"
-                }
-              ]
+              
         }
     }
 
@@ -55,16 +54,7 @@ class HomePage extends Component {
 
                         <Divider />
 
-                        <FullCalendar 
-                            defaultView="dayGridMonth" 
-                            plugins={[ dayGridPlugin ]} 
-                            header={{
-                                left: "prev,next today",
-                                center: "title",
-                                right: "dayGridMonth,timeGridWeek,timeGridDay,listWeek"
-                            }}
-                            />
-
+                        <Calendar />
                     </Paper>
                 </Grid>
 
@@ -73,6 +63,9 @@ class HomePage extends Component {
                         <Typography variant="h3" gutterBottom>
                             Agenda
                         </Typography>
+
+                        <Agenda />
+                        
                     </Paper>
                 </Grid>
             </Grid>
