@@ -11,7 +11,6 @@ import IconButton from '@material-ui/core/IconButton'
 import Menu from '@material-ui/core/Menu'
 import MenuItem from '@material-ui/core/MenuItem'
 import AccountIcon from '@material-ui/icons/AccountCircle'
-import Avatar from '@material-ui/core/Avatar'
 
 const clientsLink = props => <Link to="/clients" {...props} />
 const homeLink = props => <Link to="/home" {...props} />

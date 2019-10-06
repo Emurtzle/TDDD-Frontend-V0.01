@@ -5,13 +5,6 @@ import Agenda from './agenda'
 
 import '../../App.css'
 
-import FullCalendar from '@fullcalendar/react'
-import dayGridPlugin from "@fullcalendar/daygrid";
-import timeGridPlugin from "@fullcalendar/timegrid";
-import interactionPlugin from "@fullcalendar/interaction"
-
-import moment from 'moment'
-
 import { withStyles } from '@material-ui/core'
 
 import Grid from '@material-ui/core/Grid'
@@ -63,6 +56,8 @@ class HomePage extends Component {
                         <Typography variant="h3" gutterBottom>
                             Agenda
                         </Typography>
+
+                        <Divider />
 
                         <Agenda />
                         

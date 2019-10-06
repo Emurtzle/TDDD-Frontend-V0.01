@@ -2,11 +2,8 @@ import React, { Component } from 'react'
 
 import { withStyles } from '@material-ui/core'
 
-import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
-import Paper from '@material-ui/core/Paper'
 import ListItem from '@material-ui/core/ListItem'
-import Divider from '@material-ui/core/Divider'
 import ListItemText from '@material-ui/core/ListItemText'
 import ListItemAvatar from '@material-ui/core/ListItemAvatar'
 import Avatar from '@material-ui/core/Avatar'
@@ -32,7 +29,7 @@ class AgendaItem extends Component {
 
     render () {
         const { classes } = this.props
-        const {name, client_id, ddName, dateDue, status} = this.props.item
+        const {name, dName, dateDue, status} = this.props.item
 
         return (
             <ListItem alignItems="flex-start">
@@ -42,7 +39,7 @@ class AgendaItem extends Component {
                     </Avatar>
                 </ListItemAvatar>
                 <ListItemText
-                    primary={`${name} - ${ddName} - ${status}`}
+                    primary={`${name} - ${dName} - ${status}`}
                     secondary={
                         <React.Fragment>
                             <Typography

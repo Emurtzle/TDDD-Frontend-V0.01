@@ -4,24 +4,10 @@ import AgendaItem from './agendaItem'
 
 import { withStyles } from '@material-ui/core'
 
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import Divider from '@material-ui/core/Divider';
-import ListItemText from '@material-ui/core/ListItemText';
-import ListItemAvatar from '@material-ui/core/ListItemAvatar';
-import Avatar from '@material-ui/core/Avatar';
-import Grid from '@material-ui/core/Grid'
-import Typography from '@material-ui/core/Typography'
-import Paper from '@material-ui/core/Paper'
-import { throwStatement } from '@babel/types';
+import List from '@material-ui/core/List'
+import Divider from '@material-ui/core/Divider'
 
-const data1 = require('../../data1.json');
-
-const columns = []
-
-const options = {
-    filterType: 'checkbox',
-  }
+const data1 = require('../../data1.json')
 
 const styles = theme => ({
     paper: {
@@ -35,40 +21,39 @@ class Agenda extends Component {
         super(props)
 
         this.state = {
-            ddList: []
         }
     }
 
-    loadDueDates = () => {
-        let tempRow = []
-        let toReturn = []
+    renderAgendaItems = () => {
+        var temparr = data1.duedates.slice(0, data1.duedates.length)
 
-        for (var i = 0; i < data1.duedates.length; i++) {
-            tempRow = []
+        return temparr.map((item, index) => {
 
-            tempRow.push(data1.duedates.id)
-            tempRow.push(data1.duedates.clientId)
-            tempRow.push(data1.duedates.name)
-            tempRow.push(data1.duedates.due)
-            tempRow.push(data1.duedates.complete)
+            var tempItem = {
+                name: data1.clients[index].first_name,
+                dName: item.name,
+                dateDue: item.due,
+                status: item.complete
+            }
 
-            toReturn.push(tempRow)
-        }
-        this.setState({ddList: toReturn})
+            return (
+                <Fragment key={index}>
+                    <AgendaItem item={tempItem} />
+                    <Divider />
+                </Fragment>
+            )
+        })
     }
 
-    componentDidMount() {
-        this.loadDueDates()
-    }
 
     render () {
-        const { classes } = this.props
-        const { ddList } = this.state
+        // const { classes } = this.props
 
         return (
             <Fragment>
                 <List>
-                    <AgendaItem item={{name: "Bob Smith", ddName: "1040", dateDue: "10-5-2019", status: "complete"}} />
+                    {/* <AgendaItem item={{name: "Bob Smith", ddName: "1040", dateDue: "10-5-2019", status: "complete"}} /> */}
+                    {this.renderAgendaItems()}
                 </List>
 
 

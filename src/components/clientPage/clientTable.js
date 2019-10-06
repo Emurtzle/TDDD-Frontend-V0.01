@@ -4,9 +4,9 @@ import MUIDataTable from "mui-datatables"
 
 import { withStyles } from '@material-ui/core'
 
-import Grid from '@material-ui/core/Grid'
-import Typography from '@material-ui/core/Typography'
-import Paper from '@material-ui/core/Paper'
+// import Grid from '@material-ui/core/Grid'
+// import Typography from '@material-ui/core/Typography'
+// import Paper from '@material-ui/core/Paper'
 
 const data1 = require('../../data1.json');
 
@@ -37,8 +37,6 @@ class ClientTable extends Component {
         let toReturn = []
 
         for(var i = 0; i < data1.clients.length; i++) {
-            var obj = data1.clients[i];
-
             tempRow = []
             tempRow.push(data1.clients[i].id.toString())
             tempRow.push(data1.clients[i].first_name)
@@ -61,7 +59,7 @@ class ClientTable extends Component {
     }
 
     render () {
-        const { classes } = this.props
+        // const { classes } = this.props
         const { clientList } = this.state
 
         return (
